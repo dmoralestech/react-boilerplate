@@ -18,7 +18,7 @@ var config = {
 , devServer: {
     inline: true
   , contentBase: buildFolder
-  , port: 3333
+  , port: 3000
   }
 , module: {
     loaders: [
