@@ -15,5 +15,3 @@ Remove git files and make it your own...
 
 
 
-
-
