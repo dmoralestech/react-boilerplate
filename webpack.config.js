@@ -9,7 +9,7 @@ var config = {
 , output: {
     path: buildFolder
   , filename: 'bundle.js'
-  , publicPath: '.'
+  , publicPath: '/'
   }
 , resolve: {
     extensions: ['.js', '.jsx']
@@ -18,7 +18,7 @@ var config = {
 , devServer: {
     inline: true
   , contentBase: buildFolder
-  , port: 3000
+  , port: 3333
   }
 , module: {
     loaders: [
