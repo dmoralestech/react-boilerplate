@@ -1,3 +1,4 @@
+/*
 var webpack = require('webpack');
 var path = require('path');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
@@ -33,3 +34,4 @@ var config = {
 }
 
 module.exports = config
+*/
