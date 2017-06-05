@@ -1,37 +1,31 @@
-/*
 var webpack = require('webpack');
 var path = require('path');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+const WebpackNotifierPlugin = require('webpack-notifier');
 
 var buildFolder = path.resolve(__dirname + '/build');
 var appFolder = path.resolve(__dirname + '/app');
 
-var config = {
-  entry: appFolder + '/index.jsx'
-, output: {
-    path: buildFolder
-  , filename: 'bundle.js'
-  , publicPath: '/'
-  }
-, resolve: {
-    extensions: ['.js', '.jsx']
-  }
-, module: {
-    loaders: [
-      {
-        test: /\.jsx?/
-      , include: appFolder
-      , loader: 'babel-loader'
-      , query: {
-          presets: ['es2015', 'react']
-        }
-      }
-    ]
-  },
+module.exports = {
+    devtool: 'source-map',
+    entry: [
+        appFolder+'/index.tsx'
+    ],
+    output: {
+        filename: 'app.js',
+        publicPath: 'build',
+        path: path.resolve('build')
+    },
+    resolve: {
+        extensions: ['.ts', '.tsx', '.js', '.jsx'],
+        modules: ['src', 'node_modules'],
+    },
+    module: {
+        loaders: [
+            { test: /\.tsx?$/, loaders: ['babel-loader', 'ts-loader'], include: path.resolve('app') }
+        ]
+    },
     plugins: [
-        new UglifyJSPlugin({minimise: true})
+        new WebpackNotifierPlugin(),
     ]
 }
-
-module.exports = config
-*/
