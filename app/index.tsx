@@ -1,12 +1,9 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import * as React from "react";
+import * as ReactDOM from "react-dom";
 
-const App = () => {
-    return (
-        <div>
-            <p>Hello World</p>
-        </div>
-    )
-}
+import { Hello } from "./components/Hello";
 
-ReactDOM.render( <App />, document.getElementById('app'))
+ReactDOM.render(
+    <Hello compiler="TypeScript" framework="React" />,
+    document.getElementById("app")
+);
