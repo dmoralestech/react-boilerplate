@@ -49,5 +49,16 @@
     "ES6"
   ],
   "author": "Sean kerr",
-  "license": "ISC"
+  "license": "ISC",
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "/tests/.*\\.(ts|tsx|js)$"
+  }
 }
