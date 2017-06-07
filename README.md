@@ -6,7 +6,7 @@ includes webpack, webpack-dev-server, typescript, linting, jest & enzyme
 
 > npm run dev
 > npm run build
-> npm test
+> npm run test
 
 
 
