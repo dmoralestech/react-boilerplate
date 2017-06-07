@@ -1,6 +1,6 @@
 #Boilerplate for React
 
-includes webpack, webpack-dev-server, typescript
+includes webpack, webpack-dev-server, typescript, linting, jest & enzyme
 
 ###Getting  started
 
