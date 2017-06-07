@@ -2,15 +2,11 @@
 
 includes webpack, webpack-dev-server, typescript, linting, jest & enzyme
 
-###Getting  started
+###to run
 
-Clone it
-
-> git clone
-
-Remove git files and make it your own...
-
-> rm -rf .git
+> npm run dev
+> npm run build
+> npm test
 
 
 
