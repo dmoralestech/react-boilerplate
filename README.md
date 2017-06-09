@@ -4,15 +4,19 @@ includes webpack, webpack-dev-server, typescript, linting, jest & enzyme
 
 
 
+### Tasks
 
+```
+npm run dev
+```
 
-### to run
+```
+ npm run build
+```
 
-> npm run dev
-
-> npm run build
-
-> npm run test
+```
+npm run test
+```
 
 
 
