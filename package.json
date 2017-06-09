@@ -1,6 +1,6 @@
 {
   "name": "starter-project-react",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Lighweight boilerplate",
   "main": "index.js",
   "dependencies": {
