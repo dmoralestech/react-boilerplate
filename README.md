@@ -1,8 +1,10 @@
-#Boilerplate for React
+#Boilerplate for React [![Build Status](https://travis-ci.org/seanrkerr/react-boilerplate.svg?branch=master)](https://travis-ci.org/seanrkerr/react-boilerplate/) 
 
 includes webpack, webpack-dev-server, typescript, linting, jest & enzyme
 
-https://travis-ci.org/seanrkerr/react-boilerplate.svg?branch=master
+
+
+
 
 ###to run
 
