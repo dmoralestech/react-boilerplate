@@ -15,17 +15,11 @@ export class App extends React.Component<Props, State> {
             view: <Home />,
         }
     }
-    public goTOAbout() {
-         this.state = {
-            view: <About />,
-        }
-    }
 
     public render() {
         return (
             <div>
                 {this.state.view}
-                <a href="" onClick={this.goTOAbout}>About</a>
             </div>
         )
     }
